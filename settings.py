@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "familia"
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'MVTFERRARI.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r"C:\Users\Michifu\AppData\Local\Programs\Python\Python310\Scripts\MVTFERRARI\MVTFERRARI\templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
